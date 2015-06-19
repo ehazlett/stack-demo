@@ -2,7 +2,3 @@ app:
     image: ehazlett/docker-demo:latest
     ports:
         - "8080"
-db:
-    image: redis
-    ports:
-        - "6379"
