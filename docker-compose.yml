@@ -1,4 +1,6 @@
 app:
     image: ehazlett/docker-demo:latest
+    hostname: stack-demo
+    domainname: local
     ports:
         - "8080"
