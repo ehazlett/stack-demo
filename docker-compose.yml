@@ -4,3 +4,7 @@ app:
     domainname: local
     ports:
         - "8080"
+db:
+    image: redis:latest
+    ports:
+        - "6379"
