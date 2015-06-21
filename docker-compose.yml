@@ -1,6 +1,6 @@
 app:
     image: ehazlett/docker-demo:latest
     environment:
-        INTERLOCK_DATA: '{"hostname":"hello","domain":"orca.dockerdemo.io"}'
+        INTERLOCK_DATA: '{"hostname":"hello","domain":"dockerdemo.io"}'
     ports:
         - "8080"
