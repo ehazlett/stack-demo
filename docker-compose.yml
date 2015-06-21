@@ -1,6 +1,6 @@
 app:
     image: ehazlett/docker-demo:latest
-    hostname: stack-demo
-    domainname: local
+    environment:
+        INTERLOCK_DATA: '{"hostname":"stack-demo","domain":"local"}'
     ports:
         - "8080"
