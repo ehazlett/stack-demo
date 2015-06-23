@@ -4,7 +4,3 @@ app:
         INTERLOCK_DATA: '{"hostname":"hello","domain":"dockerdemo.io"}'
     ports:
         - "8080"
-
-db:
-    image: redis
-    
